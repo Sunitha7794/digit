@@ -1,0 +1,68 @@
+   /* Responsive adjustments */
+
+   /* Counter Section Starts */
+
+   @media screen and (max-width: 768px) {
+    .counter {    
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        margin-bottom: 30px;
+        padding-left: 10px;
+    }
+   }
+
+
+
+   /* Counter Section Ends */
+
+
+
+   /* Cards section Starts*/
+   @media screen and (max-width: 768px) {
+    .cards-section {
+        padding-right: 10px;
+        padding-left: 10px;
+    
+    }
+    
+.cards-section .card {
+    background-color: #191919;
+    align-items: center;
+    padding: 20px 20px;
+    z-index: 1;
+}
+    .bg-shape1{
+        display: flex;
+        left: 1px;
+        bottom: 20px;
+    }
+    .bg-shape2 {
+        display: flex;
+        right: 2px;
+        bottom: 20px;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .bg-shape1{
+        left: 15px;
+    }
+    .bg-shape2 {
+        right: 15px;
+    }
+
+}
+@media screen and (min-width: 1440px) {
+    
+.bg-shape1 {
+    left: 40px;
+ 
+ }
+ 
+ .bg-shape2 {
+    right: 40px;
+ }
+}
+ /* Cards section Ends*/
